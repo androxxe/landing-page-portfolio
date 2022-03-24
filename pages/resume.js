@@ -88,7 +88,7 @@ const Resume = () => {
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Oct 2019 - 2022
             </time>
-            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
               Co-founder & CTO WarungSegar
             </h3>
             <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
@@ -103,7 +103,7 @@ const Resume = () => {
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Oct 2021 - 2022
             </time>
-            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
               Co-founder Nginvite.com
             </h3>
             <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
@@ -119,7 +119,7 @@ const Resume = () => {
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Apr 2021 - 2022
             </time>
-            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
               Fullstack Developer - SiteMedia
             </h3>
             <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">

@@ -39,7 +39,7 @@ const ProfilePage = () => {
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2016 - 2022</time>
-            <h3 className="text-base font-semibold text-gray-900 dark:text-white">Bachelor Degree / Riau University</h3>
+            <h3 className="text-base font-semibold text-gray-900">Bachelor Degree / Riau University</h3>
             <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
               Bachelor Degree of Electrical Engineering Department from Riau University. Graduated with 3.71 GPA. 
             </p>
@@ -47,7 +47,7 @@ const ProfilePage = () => {
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2013 - 2016</time>
-            <h3 className="text-base font-semibold text-gray-900 dark:text-white">Senior High School / SMA Plus Taruna Andalan</h3>
+            <h3 className="text-base font-semibold text-gray-900">Senior High School / SMA Plus Taruna Andalan</h3>
             <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
               Science major. Continue my interest into computer, won some blog design competition on provincial level. Also, start to learn a programming language with Pascal
             </p>
@@ -55,7 +55,7 @@ const ProfilePage = () => {
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2010 - 2013</time>
-            <h3 className="text-base font-semibold text-gray-900 dark:text-white">Junior High School / SMP Global Andalan</h3>
+            <h3 className="text-base font-semibold text-gray-900">Junior High School / SMP Global Andalan</h3>
             <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
               Started liked in computer, tried graphic design. Made a lot of projects in graphic design and video editing
             </p>
@@ -63,7 +63,7 @@ const ProfilePage = () => {
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2007 - 2010</time>
-            <h3 className="text-base font-semibold text-gray-900 dark:text-white">Elementary School / SD Global Andalan</h3>
+            <h3 className="text-base font-semibold text-gray-900">Elementary School / SD Global Andalan</h3>
             <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
               Take part in the provincial level math olympiad
             </p>

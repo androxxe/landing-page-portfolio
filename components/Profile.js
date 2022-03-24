@@ -18,13 +18,13 @@ const Profile = () => {
         <h2 className="font-bold">Andrio Pratama Sirait</h2>
         <h2 className='text-sm font-light'>Full-stack Developer</h2>
         <div className="flex-1 flex-row justify-center items-center mt-5">
-          <a target="_blank" href="https://www.facebook.com/yangngambiltaik/" className='mx-3 text-lg'>
+          <a target="_blank" rel='noreferrer' href="https://www.facebook.com/yangngambiltaik/" className='mx-3 text-lg'>
             <FontAwesomeIcon icon={faFacebook} />
           </a>
-          <a target="_blank" href="https://www.instagram.com/andrio.sirait/" className='mx-3 text-lg'>
+          <a target="_blank" rel='noreferrer' href="https://www.instagram.com/andrio.sirait/" className='mx-3 text-lg'>
             <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/andrio-pratama-sirait-632223125/" className='mx-3 text-lg'>
+          <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/andrio-pratama-sirait-632223125/" className='mx-3 text-lg'>
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Footer, Header, Menu, Profile, Template } from '../../components'
 import Image from 'next/image'
-import 'react-slideshow-image/dist/styles.css'
 
 const StemIndonesia = () => {
 

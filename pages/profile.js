@@ -41,7 +41,7 @@ const ProfilePage = () => {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2016 - 2022</time>
             <h3 className="text-base font-semibold text-gray-900">Bachelor Degree / Riau University</h3>
             <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-              Bachelor Degree of Electrical Engineering Department from Riau University. Graduated with 3.71 GPA. 
+              Bachelor Degree of Informatics Engineering Department from Riau University. Graduated with 3.71 GPA. 
             </p>
           </li>
           <li className="mb-10 ml-4">

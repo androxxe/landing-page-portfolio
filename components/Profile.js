@@ -10,6 +10,7 @@ const Profile = () => {
         <Image
           alt='Foto Andrio Pratama Sirait'
           src='/assets/images/foto-jas.png'
+          priority={true}
           layout='fill'
           objectFit='contain'
         />

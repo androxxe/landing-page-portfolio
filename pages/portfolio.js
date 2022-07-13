@@ -4,6 +4,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const menu = [{
+  name: 'Information System of Harvest and Transportation PT. Tri Bakti Sarimas',
+  description: 'Optimize fields operational on oil palm plantation company',
+  slug: 'tbs',
+  thumbnail: '/assets/images/portfolio/tbs.jpg'
+}, {
   name: 'WarungSegar Application',
   description: 'Easy shopping for your kitchen needs in Pekanbaru City',
   slug: 'warungsegar',
@@ -52,7 +57,7 @@ const menu = [{
 
 const PortfolioItem = ({ item }) => {
   return <Link href={`/portfolio/${item.slug}`}>
-    <a className="w-[240px] h-[240px] md:w-[200px] md:h-[200px] lg:w-[190px] lg:h-[190px] xl:w-[240px] xl:h-[240px] relative flex justify-center items-center relative drop-shadow-lg rounded-lg">
+    <a className="w-[240px] h-[240px] md:w-[200px] md:h-[200px] lg:w-[160px] lg:h-[160px] xl:w-[240px] xl:h-[240px] relative flex justify-center items-center relative drop-shadow-lg rounded-lg">
       <div className="absolute inset-0 bg-cover bg-center text-center z-0 rounded-lg">
         <Image 
           src={item.thumbnail} 

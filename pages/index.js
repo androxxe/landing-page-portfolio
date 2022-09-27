@@ -1,4 +1,4 @@
-import { Header, Template } from '../components'
+import { Header, Services, Template } from '../components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
@@ -19,6 +19,7 @@ const Home = () => {
             Download CV
           </a>
         </div>
+        <Services />
       </Template>
     </div>
   )

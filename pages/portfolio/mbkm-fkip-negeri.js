@@ -8,7 +8,7 @@ const MbkmFkipNegeri = () => {
     <div>
       <Header title='Andrio Pratama Sirait Site' />
       <Template menu='/portfolio'>
-        <h2 className='text-sky-500 font-bold text-xl mb-5 mt-5'>INFORMATION SYSTEM MBKM FKIP NEGERI</h2>
+        <h2 className='text-sky-500 font-bold text-xl mb-5 mt-5'>Information System For MBKM FKIP NEGERI Indonesia</h2>
         <div className='text-center'>
           <Image 
             src='/assets/images/portfolio/mbkm-1.jpg' 

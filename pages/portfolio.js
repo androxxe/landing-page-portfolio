@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Footer, Header, Menu, Profile, Template } from '../components'
+import React from 'react'
+import { Header,Template } from '../components'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -19,13 +19,23 @@ const menu = [{
   slug: 'nginvite.com',
   thumbnail: '/assets/images/portfolio/nginvite.jpg'
 }, {
+  name: 'SPRIPIM Polda Riau',
+  description: 'SPRIPIM Polda Riau is an archive data collection, financial management, and scheduling  management',
+  slug: 'spripim',
+  thumbnail: '/assets/images/portfolio/spripim.png'
+}, {
+  name: 'Smart Center Indonesia',
+  description: 'Smart Center Indonesia is a Tutoring Center, Private Lessons to Home, Courses for All Levels of Education and the General',
+  slug: 'sci',
+  thumbnail: '/assets/images/portfolio/sci.png'
+}, {
   name: 'Etangkahan',
   description: 'E-Tangkahan is a modern online shopping application based on android and iOS in Medan City',
   slug: 'etangkahan',
   thumbnail: '/assets/images/portfolio/etangkahan.jpg'
 
 }, {
-  name: 'MBKM FKIP Negeri',
+  name: 'MBKM FKIP Negeri Indonesia',
   description: 'Information system for Communication forum of Faculty of Teacher Training and Education in Indonesia',
   slug: 'mbkm-fkip-negeri',
   thumbnail: '/assets/images/portfolio/mbkm.jpg'
@@ -57,17 +67,22 @@ const menu = [{
 
 const PortfolioItem = ({ item }) => {
   return <Link href={`/portfolio/${item.slug}`}>
-    <a className="w-[240px] h-[240px] md:w-[200px] md:h-[200px] lg:w-[160px] lg:h-[160px] xl:w-[240px] xl:h-[240px] relative flex justify-center items-center relative drop-shadow-lg rounded-lg">
-      <div className="absolute inset-0 bg-cover bg-center text-center z-0 rounded-lg">
-        <Image 
-          src={item.thumbnail} 
-          layout='fill'
-          className='rounded-lg'
-          objectFit='contain'/>
+    <a className='flex flex-col h-full'>
+      <div className="w-72 h-72 md:w-[280px] md:h-[280px] lg:w-[240px] lg:h-[240px] xl:w-[240px] xl:h-[240px] 2xl:h-[280px] 2xl:w-[280px] relative relative shadow-lg rounded-lg">
+        <div className="bg-cover bg-center text-center z-0 rounded-lg">
+          <Image 
+            src={item.thumbnail} 
+            layout='fill'
+            className='rounded-lg'
+            objectFit='cover'/>
+        </div>
+        <div className="opacity-0 rounded-lg hover:opacity-90 px-3 hover:bg-sky-500 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-white font-semibold">
+          <p className='font-normal text-center text-sm'>{ item.description }</p>
+        </div>
       </div>
-      <div className="opacity-0 rounded-lg hover:opacity-100 px-3 hover:bg-sky-500 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-white font-semibold">
-        <p className='mb-2 text-center'>{ item.name }</p>
-        <p className='font-normal text-center text-sm'>{ item.description }</p>
+      <div className='my-3 flex-1 flex flex-col'>
+        <p className='font-bold text-sky-500 text-center text-sm'>{ item.name }</p>
+
       </div>
     </a>
   </Link>
@@ -79,7 +94,7 @@ const Portfolio = () => {
       <Header title='Andrio Pratama Sirait Site' />
       <Template menu='/portfolio'>
         <h2 className='text-sky-500 font-bold text-xl mb-10 mt-5'>MY PORTFOLIO</h2>
-        <div className="grid grid-cols-none md:grid-cols-2 lg:grid-cols-3 gap-4 mb-10 w-full flex justify-center items-center relative">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4 mb-10 w-full flex justify-center items-center relative">
           { menu.map((item, index) => 
             <PortfolioItem key={`portfolio_${index}`} item={item} />
           )}

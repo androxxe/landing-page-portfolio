@@ -67,7 +67,7 @@ const menu = [{
 
 const PortfolioItem = ({ item }) => {
   return <Link href={`/portfolio/${item.slug}`}>
-    <a className='flex flex-col h-full'>
+    <a className='flex flex-col h-full items-center'>
       <div className="w-72 h-72 md:w-[280px] md:h-[280px] lg:w-[240px] lg:h-[240px] xl:w-[240px] xl:h-[240px] 2xl:h-[280px] 2xl:w-[280px] relative relative shadow-lg rounded-lg">
         <div className="bg-cover bg-center text-center z-0 rounded-lg">
           <Image 
@@ -80,7 +80,7 @@ const PortfolioItem = ({ item }) => {
           <p className='font-normal text-center text-sm'>{ item.description }</p>
         </div>
       </div>
-      <div className='my-3 flex-1 flex flex-col'>
+      <div className='my-5 w-full'>
         <p className='font-bold text-sky-500 text-center text-sm'>{ item.name }</p>
 
       </div>

@@ -22,7 +22,7 @@ const ProfilePage = () => {
             </tr>
             <tr>
               <td className='text-left text-sm w-[180px]'>Email</td>
-              <td className='text-right font-semibold'>me@andriosirait.com</td>
+              <td className='text-right font-semibold'>andriopratama16@gmail.com</td>
             </tr>
             <tr>
               <td className='text-left text-sm w-[180px]'>Web</td>

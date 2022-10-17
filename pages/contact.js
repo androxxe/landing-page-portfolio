@@ -12,7 +12,7 @@ const Contact = () => {
             <p>Pekanbaru, Indonesia</p>
 
             <p>28293</p>
-            +62 812 2669 6696 | me@andriosirait.com
+            +62 812 2669 6696 | andriopratama16@gmail.com
           </div>
         </div>
       </Template>

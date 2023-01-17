@@ -24,7 +24,9 @@ const ProfilePage = () => {
 						</tr>
 						<tr>
 							<td className="text-left text-sm w-[180px]">Email</td>
-							<td className="text-right font-semibold">me@andriosirait.com</td>
+							<td className="text-right font-semibold">
+								andriopratama16@gmail.com
+							</td>
 						</tr>
 						<tr>
 							<td className="text-left text-sm w-[180px]">Web</td>
@@ -41,7 +43,7 @@ const ProfilePage = () => {
 					<li className="mb-10 ml-4">
 						<div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 						<time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-							2016 - 2021
+							2016 - 2022
 						</time>
 						<h3 className="text-base font-semibold text-gray-900">
 							Bachelor Degree / Riau University

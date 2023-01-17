@@ -1,4 +1,4 @@
-import { Header, Template } from "../components";
+import { Header, Services, Template } from "../components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
@@ -24,12 +24,13 @@ const Home = () => {
 					<a
 						target="_blank"
 						rel="noreferrer"
-						href="/assets/CV Andrio - Apr 2022.pdf"
+						href="/assets/CV-dan-Portfolio-Andrio-Sirait.pdf"
 						className="mt-10 mb-20 bg-sky-500 hover:bg-sky-700 px-5 py-3 text-white rounded-full text-sm">
 						<FontAwesomeIcon icon={faDownload} className="mr-3" />
 						Download CV
 					</a>
 				</div>
+				<Services />
 			</Template>
 		</div>
 	);

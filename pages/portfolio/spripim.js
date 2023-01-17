@@ -8,41 +8,44 @@ const WarungSegar = () => {
     <div>
       <Header title='Andrio Pratama Sirait Site' />
       <Template menu='/portfolio'>
-        <h2 className='text-sky-500 font-bold text-center text-xl mb-5 mt-5'>Information System of Harvest and Transportation<br />PT. Tri Bakti Sarimas</h2>
+        <h2 className='text-sky-500 font-bold text-center text-xl mb-5 mt-5'>Information System for SPRIPIM Polda Riau</h2>
         <div className='text-center'>
           <Image 
-            src='/assets/images/portfolio/tbs-1.webp' 
+            src='/assets/images/portfolio/spripim-1.jpg' 
             width={200}
             height={400}
             objectFit='contain'/>
           <Image 
-            src='/assets/images/portfolio/tbs-2.webp' 
+            src='/assets/images/portfolio/spripim-2.jpg' 
             width={200}
             height={400}
             objectFit='contain'/>
           <Image 
-            src='/assets/images/portfolio/tbs-3.webp' 
+            src='/assets/images/portfolio/spripim-3.jpg' 
             width={200}
             height={400}
             objectFit='contain'/>
           <Image 
-            src='/assets/images/portfolio/tbs-3.webp' 
+            src='/assets/images/portfolio/spripim-3.jpg' 
             width={200}
             height={400}
             objectFit='contain'/>
         </div>
         <p className='mb-3 mt-10 text-justify'>
-          Tri Bakti Sarimas is a company engaged in oil palm plantations, on its way PT. Tri Bakti Sarimas encountered many operational problems in fields.
-          this application digitizes the process in the field, integrate the data and  monitor activity
+          SPRIPIM Polda Riau is an archive data collection, financial management, and scheduling  management application for the Riau Regional Police leadership. This application is used internally by the police within scope SPRIPIM Polda Riau
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-3 divide-x mt-5 mb-10">
           <div className='p-3 px-5'>
             <p className='font-bold'>Access:</p>
-            <a className='text-sky-500 underline block' href="https://play.google.com/store/apps/details?id=com.androxxe.tbs">
-              Click here (Apps)
+            <a className='text-sky-500 underline block' href="https://play.google.com/store/apps/details?id=com.androxxe.spripimpolda">
+              Click here (Android)
             </a>
 
-            <a className='text-sky-500 underline' href="https://tribaktisarimas.com">
+            <a className='text-sky-500 underline block' href="https://apps.apple.com/us/app/spripim-presisi-polda-riau/id1635047725">
+              Click here (iOS)
+            </a>
+
+            <a className='text-sky-500 underline' href="https://spripimpoldariau.com">
               Click here (Web)
             </a>
           </div>

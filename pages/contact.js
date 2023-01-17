@@ -11,7 +11,7 @@ const Contact = () => {
 						<p>Jl. Taman Laguna</p>
 						<p>Jakarta Timur, Indonesia</p>
 						<p>17435</p>
-						+62 812 2669 6696 | me@andriosirait.com
+						+62 812 2669 6696 | andriopratama16@gmail.com
 					</div>
 				</div>
 			</Template>

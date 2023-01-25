@@ -24,8 +24,8 @@ const Home = () => {
 					<a
 						target="_blank"
 						rel="noreferrer"
-						href="/assets/CV-dan-Portfolio-Andrio-Sirait.pdf"
-						className="mt-10 mb-20 bg-sky-500 hover:bg-sky-700 px-5 py-3 text-white rounded-full text-sm">
+						href="/assets/CV-dan-Portolio-Andrio-Sirait - Jan 2023.pdf"
+						className="mt-0 mb-10 bg-sky-500 hover:bg-sky-700 px-5 py-3 text-white rounded-full text-sm">
 						<FontAwesomeIcon icon={faDownload} className="mr-3" />
 						Download CV
 					</a>
